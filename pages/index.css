@@ -146,7 +146,7 @@
   height: 270px;
   border: none;
 }
-.recipe__video-caption {
+.recipes__video-caption {
   display: flex;
   position: relative;
   flex-direction: row;
