@@ -195,6 +195,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 .form__input {
   display: block;
@@ -230,12 +231,12 @@ input::-webkit-input-placeholder {
 }
 
 .form__checkbox {
+  display: flex;
   padding-top: 32px;
-  border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
-.form__button_caption {
-  margin-left: 12px;
-}
+
 .custom-button:hover {
   cursor: pointer;
   transition: opacity 0.7s ease;
