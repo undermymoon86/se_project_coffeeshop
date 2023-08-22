@@ -109,7 +109,7 @@
 }
 .recipes {
   padding: 100px 80px 215px;
-  position: relative;
+
   background-color: #0a2750;
   background-image: url(/images/background_recipes.svg);
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@
 }
 .recipes__videos {
   display: flex;
-  position: relative;
+
   gap: 40px;
   width: 480px;
   height: 273px;
@@ -148,8 +148,7 @@
 }
 .recipes__video-caption {
   display: flex;
-  position: relative;
-  flex-direction: row;
+
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -157,5 +156,90 @@
   line-height: 30px;
   margin: 24px 0 0;
 }
+
+.reservations {
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url(/images/background_reservation.svg);
+}
+.form {
+  max-width: 385px;
+}
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  padding: 100px 0 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.form__label {
+  margin-top: 32px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+}
+.form__input {
+  display: block;
+  padding: 15px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
+  border-radius: 14px;
+}
+input::-webkit-input-placeholder {
+  color: #838383;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px;
+}
+.form__button {
+  width: 100%;
+  padding: 15px;
+  margin: 0;
+  border-radius: 4px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+
+.form__checkbox {
+  padding-top: 32px;
+  border-radius: 2px;
+}
+.form__button_caption {
+  margin-left: 12px;
+}
+.custom-button:hover {
+  cursor: pointer;
+  transition: opacity 70% ease;
+}
+
 .footer {
 }
