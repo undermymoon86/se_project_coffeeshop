@@ -238,7 +238,7 @@ input::-webkit-input-placeholder {
 }
 .custom-button:hover {
   cursor: pointer;
-  transition: opacity 70% ease;
+  transition: opacity 0.7s ease;
 }
 
 .footer {
