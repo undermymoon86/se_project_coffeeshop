@@ -6,69 +6,10 @@
 @import url(../blocks/form.css);
 @import url(../blocks/menu.css);
 @import url(../blocks/card.css);
+@import url(../blocks/about.css);
 
 .content {
 }
-.about {
-  background-color: #0a2850;
-}
-.about__title {
-  color: white;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  max-width: 252px;
-  padding-top: 100px;
-  margin-left: 80px;
-}
-.about__content {
-  max-width: 660px;
-  color: white;
-  padding-left: 800px;
-  padding-bottom: 173px;
-  padding-right: 80px;
-}
-.about__paragraph {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
 
-  padding-top: 20px;
-}
-
-.about__circle {
-}
-
-}
-@keyframes pulsate {
-  0%,
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.2);
-    opacity: 0.6;
-  }
-}
-.static_circle {
-  width: 426px;
-  height: 426px;
-
-}
-.about__circle_animation_blurred {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  animation: pulse 2s ease-in-out infinite;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .footer {
 }
