@@ -1,15 +1,14 @@
 @keyframes pulsate {
   0% {
-    opacity: 0;
+    box-shadow: 0 0 0 0 rgb(183, 196, 213);
   }
   50% {
-    opacity: 0.6;
+    box-shadow: 0 0 0 50px rgb(98, 138, 189);
   }
   100% {
-    transform: scale(1.2);
+    box-shadow: 0 0 0 100px rgba(47, 128, 237);
   }
 }
-
 .about {
   background-color: #0a2850;
   position: relative;
