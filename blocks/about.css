@@ -1,11 +1,15 @@
 @keyframes pulsate {
   0% {
+    opacity: 0;
     box-shadow: 0 0 0 0 rgb(183, 196, 213);
   }
   50% {
+    opacity: 0.6;
     box-shadow: 0 0 0 50px rgb(98, 138, 189);
   }
   100% {
+    transform: scale(1.2);
+    opacity: 0;
     box-shadow: 0 0 0 100px rgba(47, 128, 237);
   }
 }
@@ -52,8 +56,8 @@
   position: absolute;
   top: -152px;
   left: -129px;
-  animation: pulsate 1.3s ease-in-out infinite;
 }
 
 .about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite both;
 }
