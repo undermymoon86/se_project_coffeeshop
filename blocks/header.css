@@ -51,7 +51,8 @@
     width: 646px;
     height: 568px;
     margin-top: 124px;
-    transform: translate(800px, -100px);
+    right: 20px;
+    bottom: 150px;
   }
   .header__footer {
     display: flex;

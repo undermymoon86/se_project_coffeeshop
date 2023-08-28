@@ -11,7 +11,7 @@
 }
 .footer__content {
   color: #ffffff;
-  margin: 60px 100px 169px 80px;
+  margin: 60px 0 169px;
   display: flex;
   justify-content: space-between;
 }
