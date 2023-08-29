@@ -7,20 +7,20 @@
     max-height: 800px;
     height: 100vh;
     background-color: #ffffff;
-    background-image: url(/images/background_header.svg);
+    background-image: url(../images/background_header.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    z-index: 1;
   }
   
   .header__title {
     font-family: "Inter", "Arial", sans-serif;
-    font-style: italic;
     letter-spacing: -0.6px;
     max-width: 720px;
     font-size: 60px;
     line-height: 72px;
-    margin: 103px 0 0;
+    margin: 183px 0 0;
     letter-spacing: -0.6px;
     font-weight: normal;
   }
@@ -53,6 +53,7 @@
     margin-top: 124px;
     right: 20px;
     bottom: 150px;
+    z-index: -1;
   }
   .header__footer {
     display: flex;
@@ -60,6 +61,8 @@
     margin-top: auto;
   }
   .header__paragraph {
+    display: flex;
+    align-items: end;
     margin: 0;
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
@@ -67,4 +70,5 @@
     font-size: 16px;
     line-height: 20px;
     color: #838383;
+   
   }
