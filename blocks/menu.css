@@ -6,9 +6,9 @@
   background-position: center;
   background-size: cover;
 }
+
 .menu__title {
-  text-align: center;
-  padding-left: 350px;
+  text-align: end;
   max-width: 780px;
   margin: 0 0 24px;
   font-family: "Inter", "Arial" sans-serif;
@@ -18,10 +18,7 @@
   line-height: 52px;
 }
 .menu__subtitle {
-  text-align: center;
-  padding-left: 350px;
   max-width: 780px;
-  text-align: center;
   margin: 0 0 100px;
   font-family: "Noto Serif";
   font-style: normal;
