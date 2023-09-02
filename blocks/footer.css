@@ -12,7 +12,6 @@
 
 .footer__content {
   color: #ffffff;
-
   display: flex;
   justify-content: space-between;
 }
@@ -25,12 +24,14 @@
   line-height: 20px;
   display: flex;
   justify-content: end;
+  margin-top: 0;
 }
 
 .footer__list {
   list-style-type: none;
   display: flow;
   justify-content: end;
+  margin-bottom: 10px;
 }
 
 .footer__list-item {

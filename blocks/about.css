@@ -14,9 +14,11 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .about__title {
-  position: absolute;
   color: white;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
@@ -35,7 +37,7 @@
   padding-right: 80px;
 }
 .about__paragraph {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
