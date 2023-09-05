@@ -41,10 +41,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 .footer__list-item:last-child {
-  margin: 16px 0 16px;
+  margin-bottom: 0px;
 }
 .footer__social-link {
   text-decoration: none;
